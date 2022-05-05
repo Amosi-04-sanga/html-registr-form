@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+</head>
+
+<body>
+
+    <form autocomplete="on" action="/">
+        <div class="row">
+            <label for="username">Enter username</label>
+            <input type="text" id="username">
+        </div>
+        <div class="row">
+            <label for="password">Enter password</label>
+            <input type="password" id="password">
+        </div>
+        <div class="row">
+            <span>Gender:</span>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+
+       <div class="row">
+           <span>Hobbies:</span>
+           <label for="singing">Singing</label>
+           <input type="checkbox" name="hobbies" id="singing"><br>
+           <label for="dancing">Dancing</label>
+           <input type="checkbox" name="dancing" id="dancing"><br>
+           <label for="acting">Acting</label>
+           <input type="checkbox" name="acting" checked id="acting">
+       </div>    
+       <div class="row">
+           <label for="file">upload PIC</label>
+           <input type="file" name="file" id="file">
+       </div>
+       <div class="row">
+           <label for="about">About yourself</label><br>
+           <textarea name="about" id="about" cols="30" rows="10"></textarea>
+       </div>
+
+       <div class="row">
+          <label for="place">place of birth</label>
+          <select name="place" id="place">
+            <option value="Gwallor">Gwallor</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+          </select>
+       </div>
+
+    </form>
+
+</body>
+
+</html>
